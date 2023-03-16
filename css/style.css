@@ -1,3 +1,16 @@
+#scroll-text {
+  animation: slide-in 0.5s ease-out;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 .btn-primary {
   background-color: #1e40af;
   color: white;
